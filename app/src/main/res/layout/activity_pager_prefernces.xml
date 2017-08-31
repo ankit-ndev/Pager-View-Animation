@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eetffff"
+    tools:context="me.ankit.com.androiduihelper.ui.activity.PreferencesActivity">
+
+    <TextView
+        android:text="@string/create_preferences"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <LinearLayout
+        android:id="@+id/transitions_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_expand"
+            android:onClick="onClick"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#808b96"
+            android:textColor="#fdfefe"
+            android:text="@string/tap_here_to_continue"/>
+
+
+        <TextView
+            android:id="@+id/tv_page_count"
+            android:textSize="16sp"
+            android:onClick="onClick"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@drawable/sd_oval_background"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#fdfefe"
+            android:text="@string/page_count"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_page_indicator"
+            android:textSize="16sp"
+            android:onClick="onClick"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@drawable/sd_oval_background"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#fdfefe"
+            android:text="@string/page_indicator_not_allowed"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_type"
+            android:onClick="onClick"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@drawable/sd_oval_background"
+            android:textSize="16sp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#fdfefe"
+            android:text="@string/type_of_transition"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_automated"
+            android:textSize="16sp"
+            android:onClick="onClick"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@drawable/sd_oval_background"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#fdfefe"
+            android:text="@string/not_allow_automatic_page_change"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:onClick="onClick"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="end"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/next"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
