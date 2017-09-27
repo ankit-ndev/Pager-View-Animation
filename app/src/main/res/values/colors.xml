@@ -7,4 +7,6 @@
     <color name="pi_unselected">#ffffff</color>
     <color name="pi_selected">#cb4335</color>
     <color name="skip_blue">#85c1e9</color>
+
+    <color name="status_bar_color">#6d4432</color>
 </resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_bg"
+    tools:context="me.ankit.com.androiduihelper.ui.activity.AboutActivity">
+
+
+    <TextView
+        android:text="@string/about_developer"
+        android:background="#6d4432"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <View
+        android:background="@drawable/sd_thought_oval"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+
+    <View
+        android:background="@drawable/sd_thought_oval"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+
+    <View
+        android:background="@drawable/sd_thought_oval"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"/>
+
+    <TextView
+        android:text="@string/about_author"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sd_thought_oval"
+        android:layout_width="280dp"
+        android:layout_height="260dp" />
+
+</LinearLayout>
